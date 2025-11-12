@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #001f3f, #000814);
+  color: #e0e8ff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #003366, #001f3f);
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 150, 255, 0.3);
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #00aaff;
+  box-shadow: 0 0 20px #00aaff;
+}
+
+.name {
+  font-size: 1.8rem;
+  color: #80d4ff;
+  margin-top: 1rem;
+}
+
+.subtitle {
+  color: #cce6ff;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: #66b3ff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #00eaff;
+}
+
+/* SECTIONS */
+section {
+  margin: 3rem 0;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: rgba(0, 30, 60, 0.5);
+  box-shadow: 0 0 15px rgba(0, 150, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+h2 {
+  text-align: center;
+  color: #00bfff;
+  margin-bottom: 1.5rem;
+}
+
+.skill-cards, .reflection-cards, .ethic-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.skill-card, .reflection-card, .ethic-card {
+  background: rgba(0, 45, 90, 0.7);
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 10px rgba(0, 150, 255, 0.2);
+}
+
+.skill-card:hover, .reflection-card:hover, .ethic-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.5);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #005b99;
+  color: #88ccff;
+}
+
+#scrollTop {
+  background: #0077ff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#scrollTop:hover {
+  background: #00aaff;
+}
+
+/* RESPONSIVE */
+@media (max-wi
